@@ -186,7 +186,7 @@ nav {
 }
 
 nav .links {
-  width: 700px;
+  width: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -305,4 +305,29 @@ ul li {
 .fill {
   display: flex;
   justify-content: space-between;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  nav {
+    flex-direction: column-reverse;
+  }
+
+  nav .links {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav .img {
+    justify-content: center;
+    margin: 0 0 40px;
+  }
+  header span {
+    width: 100%;
+  }
+
+  header img {
+    display: none;
+  }
 }
