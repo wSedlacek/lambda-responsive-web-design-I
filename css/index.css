@@ -209,10 +209,6 @@ header {
   justify-content: space-around;
 }
 
-header * {
-  width: 49%;
-}
-
 header span {
   display: flex;
   flex-direction: column;
