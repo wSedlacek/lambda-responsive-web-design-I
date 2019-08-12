@@ -327,3 +327,36 @@ ul li {
     display: none;
   }
 }
+
+@media (max-width: 500px) {
+  body {
+    margin: 40px 20px;
+  }
+  nav .links {
+    flex-direction: column;
+  }
+  nav .links * {
+    font-size: 20px;
+    padding: 20px 0;
+    width: 100%;
+    border-bottom: 1px solid gray;
+  }
+
+  nav .img {
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid gray;
+  }
+
+  section {
+    flex-direction: column;
+  }
+  .half {
+    width: 100%;
+    margin: 20px 0 10px;
+  }
+  .third {
+    width: 100%;
+    margin: 20px 0 10px;
+  }
+}
